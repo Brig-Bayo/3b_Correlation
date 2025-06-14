@@ -4,6 +4,8 @@
 
 Correlation analysis is a statistical method used to evaluate the strength and direction of the relationship between two continuous variables. Unlike regression, which predicts one variable based on another, correlation simply measures how variables change together without implying causation.
 
+---
+
 ### Key Concepts in Correlation Analysis
 
 #### Correlation Coefficient
@@ -16,6 +18,8 @@ Common correlation coefficients include:
 1. **Pearson's r**: Measures linear relationships between normally distributed variables
 2. **Spearman's rho (ρ)**: Measures monotonic relationships between variables (doesn't require normality)
 3. **Kendall's tau (τ)**: Another non-parametric measure, less sensitive to errors and discrepancies in data
+
+---
 
 #### Interpreting Correlation Coefficients
 
@@ -30,12 +34,16 @@ The sign indicates the direction:
 - Positive: As one variable increases, the other tends to increase
 - Negative: As one variable increases, the other tends to decrease
 
+---
+
 #### Correlation vs. Causation
 
 It's crucial to remember that correlation does not imply causation. Variables can be correlated because:
 1. One variable causes the other
 2. Both variables are caused by a third variable
 3. The relationship is coincidental
+
+---
 
 ## Pearson Correlation for Parametric Data
 
@@ -49,9 +57,13 @@ Pearson's correlation coefficient (r) measures the linear relationship between t
 
 If the p-value from the correlation test is less than the significance level (e.g., 0.05), we reject the null hypothesis and conclude that there is a significant correlation between study hours and exam scores. The correlation coefficient (r) indicates the strength and direction of this relationship.
 
+---
+
 ## Spearman and Kendall Correlations for Non-parametric Data
 
 When the assumptions for Pearson correlation are not met (e.g., non-normal distribution, non-linear relationship), we can use non-parametric alternatives.
+
+---
 
 ## Correlation Matrices
 
